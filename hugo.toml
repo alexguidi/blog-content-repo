@@ -2,6 +2,25 @@ baseURL = "https://blog.guidi.dev/"
 languageCode = "en-us"
 title = "guidi.dev"
 enableRobotsTXT = true
+theme = "terminal"
+pagination.pagerSize = 5
+
+[markup.highlight]
+  noClasses = false
 
 [params]
-  description = "Notes on self-hosting, Kubernetes, and building things at home."
+  contentTypeName = "posts"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+  autoCover = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "guidi.dev"
+    [languages.en.params]
+      subtitle = "Notes on self-hosting, Kubernetes, and building things at home."
+      [languages.en.params.logo]
+        logoText = "guidi.dev"
+        logoHomeLink = "/"
