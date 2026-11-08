@@ -9,4 +9,4 @@ minute it's live at [blog.guidi.dev](https://blog.guidi.dev), rebuilt automatica
 in-cluster pipeline running on a Raspberry Pi — no external CI, no container registry, no manual
 deploy step.
 
-This Blog is a working in progress.
+This blog is a work in progress.
